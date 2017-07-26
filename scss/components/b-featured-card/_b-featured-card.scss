@@ -1,0 +1,52 @@
+
+.b-featured-item {
+	&__logo {
+		@extend %image-item;
+	}
+
+	&__header {
+		padding: $basic-padding;
+	}
+
+	&__title {
+		font-weight: bold;
+		margin: 0;
+	}
+
+	&__subtitle {
+		margin: 0;
+		color: $brand-text;
+	}
+
+	&__thumbnail {
+		overflow: hidden;
+		img {
+			width: 100%;
+		}
+	}
+
+	&__description {
+		padding: $basic-padding;
+		color: $brand-text;
+	}
+
+	&__actions {
+		float: right;
+		padding: $basic-padding;
+	}
+
+	&__action {
+		margin-left: $basic-padding;
+		margin-right: $basic-padding;
+		background: transparent;
+		border: none;
+		color: $brand-text;
+		text-transform: uppercase;
+		text-align: center;
+
+		&--highlighted {
+			color: $brand-primary;
+		}
+	}
+}
+

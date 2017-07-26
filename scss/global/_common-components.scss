@@ -1,0 +1,28 @@
+.b-section {
+	font-family: 'Lato', sans-serif;
+
+	&__title {
+		font-size: 22px;
+		color: $brand-primary;
+		padding: 0 0 10px 0;
+		letter-spacing: 0.05em;
+	}
+}
+
+.b-card-item {
+	@include shadow-border();
+	border-radius: $border-radius;
+	margin-bottom: $basic-padding;
+}
+
+%image-item {
+	text-align: center;
+	padding: $basic-padding;
+	img {
+		display: inline-block;
+		border-radius: 50%;
+		border: 1px solid #efefef;
+		height: 40px;
+	}
+}
+

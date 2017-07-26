@@ -1,0 +1,47 @@
+.b-message-card {
+
+	&__logo {
+		@extend %image-item;
+	}
+
+	&__title {
+		margin-top: $basic-padding;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	&__time {
+		float: right;
+		font-size: 11px;
+		color: $brand-text;
+		padding: $basic-padding;
+	}
+
+	&__body {
+		color: $brand-text;
+		padding-right: $basic-padding;
+	}
+
+	&__actions {
+		padding: $basic-padding 0;
+	}
+
+	&__action {
+		display: inline-block;
+		width: 49%;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: $brand-text;
+		font-weight: bold;
+		cursor: pointer;
+		i {
+			padding-right: 4px;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: $brand-active;
+		}
+	}
+
+}

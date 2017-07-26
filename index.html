@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SASS Course</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="b-navigation-bar">
+		<a class="b-navigation-bar__navigation-item b-navigation-bar__navigation-item--active">Home</a>
+		<a class="b-navigation-bar__navigation-item">Movies</a>
+		<a class="b-navigation-bar__navigation-item">TV Shows</a>
+	</nav>
+	<div class="b-main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 col-xs-offset-2">
+					<section class="b-section">
+						<h2 class="b-section__title">Recommended</h2>
+						<div class="b-card-item b-featured-item">
+							<div class="row">
+								<div class="col-xs-2">
+									<div class="b-featured-item__logo">
+										<img src="assets/img/movie-icon.png">
+									</div>
+								</div>
+								<div class="col-xs-10">
+									<div class="b-featured-item__header">
+										<p class="b-featured-item__title">Edge of Tomorrow</p>
+										<p class="b-featured-item__subtitle">2014</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="b-featured-item__thumbnail">
+										<img src="assets/img/thumbnail.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<p class="b-featured-item__description">An alien race, undefeatable by any existing military unit, has launched a relentless attack on Earth, and Major William Cage (Tom Cruise) finds himself dropped into a suicide mission</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="b-featured-item__actions">
+										<button class="b-featured-item__action">
+											RATE
+										</button>
+										<button class="b-featured-item__action b-featured-item__action--highlighted">
+											READ
+										</button>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-xs-4">
+					<section class="b-section">
+						<h2 class="b-section__title">Messages</h2>
+						<div class="b-card-item b-message-card">
+							<div class="row">
+								<div class="col-xs-2">
+									<div class="b-message-card__logo">
+										<img src="assets/img/gmail-logo.png">
+									</div>
+								</div>
+								<div class="col-xs-10">
+									<p class="b-message-card__title">Jennifer McIntyre</p>
+									<span class="b-message-card__time">4:10 PM</span>
+									<p class="b-message-card__body">Can someone recommend me a good movie about the history of music or any related topic?</p>
+									<hr>
+									<div class="b-message-card__actions">
+										<a class="b-message-card__action">
+											<i class="fa fa-archive" aria-hidden="true"></i>
+											Archive
+										</a>
+										<a class="b-message-card__action">
+											<i class="fa fa-reply" aria-hidden="true"></i>
+											Reply
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="b-card-item b-message-card">
+							<div class="row">
+								<div class="col-xs-2">
+									<div class="b-message-card__logo">
+										<img src="assets/img/gmail-logo.png">
+									</div>
+								</div>
+								<div class="col-xs-10">
+									<p class="b-message-card__title">Jennifer McIntyre</p>
+									<span class="b-message-card__time">4:10 PM</span>
+									<p class="b-message-card__body">Can someone recommend me a good movie about the history of music or any related topic?</p>
+									<hr>
+									<div class="b-message-card__actions">
+										<a class="b-message-card__action">
+											<i class="fa fa-archive" aria-hidden="true"></i>
+											Archive
+										</a>
+										<a class="b-message-card__action">
+											<i class="fa fa-reply" aria-hidden="true"></i>
+											Reply
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-xs-10 col-xs-offset-2">
+					<section class="b-section">
+						<h2 class="b-section__title">Send a message</h2>
+						<div class="b-message-form">
+							<input title="My message" type="text" class="b-message-form__inputElement" placeholder="My message">
+							<input id="notify-checkbox" type="checkbox" class="b-message-form__checkboxOption">
+							<label for="notify-checkbox" class="b-message-form__optionLabel b-message-form__optionLabel--checkbox">Notify me when someone answers</label>
+							<button class="b-message-form__button b-message-form__button--submit">Send</button>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
