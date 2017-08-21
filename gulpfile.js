@@ -20,3 +20,6 @@ gulp.task( 'sass', () => {
 gulp.task( 'sass:watch', () => {
 	gulp.watch( './scss/**/*.scss', [ 'sass' ] );
 } );
+
+// En ocasiones es bueno dar la tarea default por si alguien no introduce ningún parámetro a Gulp.js
+gulp.task( 'default', ['sass', 'sass:watch'] );

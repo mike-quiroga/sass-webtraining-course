@@ -1,5 +1,10 @@
 @mixin shadow-border() {
+	// Excelente opción el dar el prefijo "vendor" para Webkit
 	-webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	// Otro prefijo comúnmente usado es el de Mozilla
+	-moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
-}
 
+	// Sólo como extra aquí puedes checar la compatibilidad del box-shadow:
+	// http://caniuse.com/#search=box-shadow
+}

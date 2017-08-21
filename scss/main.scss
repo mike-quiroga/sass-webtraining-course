@@ -1,5 +1,6 @@
 @import "global/variables";
-@import "global/_mixins";
+// El "_" indica que es una hoja de estilos "parcial", cuando se hace el import ya no es necesario ponerlo
+@import "global/mixins";
 @import "global/global-styles";
 @import "global/common-components";
 @import "components/b-featured-card/b-featured-card";
